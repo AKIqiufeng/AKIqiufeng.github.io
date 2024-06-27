@@ -1,0 +1,145 @@
+
+assets:
+  third_party_provider: https://npm.elemecdn.com
+  
+
+user:
+  name: AKI秋枫
+  first_name: 秋枫
+  last_name: AKI
+  email: akiqiufeng@163.com
+  domain: https://akiqiufeng.top
+  avatar: /img/avatar.jpg
+  describe: 网站简介。
+  rule_text: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+
+favicon:
+  logo: logo.svg
+  icon16: logo.svg
+  icon32: logo.svg
+  apple_touch_icon: logo.svg
+  webmanifest: /site.webmanifest
+  visibilitychange: true
+  hidden: logo.svg
+  show_text: Wellcome to my blog!
+  hide_text: AKI秋枫的Blog
+
+top_bars:
+  - title: 首页
+    url: /
+  - title: 标签
+    url: /tags/
+  - title: 分类
+    url: /categories/
+  - title: 归档
+    url: /archives/
+  - title: 关于
+    url: /about/
+
+
+sidebar:
+  social: # 社交地址
+    - name: github
+      icon: fab fa-github
+      url: https://github.com/AKIqiufeng
+
+  typed_text_prefix: I`m
+  typed_text: ["Developer"]
+
+  info: # 个人信息
+    - key: 地址
+      val: 地球
+    - key: 年龄
+      val: 21
+
+rightside:
+  readmode: true
+  aside: true
+
+footer:
+  powered:
+    enable: true
+  copyright_year:
+  live_time:
+    enable: true
+    prefix: footer.tips
+    start_time: 06/20/2024 20:00:00
+  custom_text:
+
+banner:
+  use_cover: true
+  default:
+    type: img
+    bgurl: https://r2.haier-mail.com/imghost%2F2024%2F06%2Fforget-me-not.jpg
+    # banner_text:
+
+  index:
+    type: video
+    bgurl: https://r2.haier-mail.com/imghost%2F2024%2F06%2F%E7%99%BD%E8%89%B2%E7%9A%84%E8%8A%B1%E6%9C%B5_%E7%88%B1%E7%BB%99%E7%BD%91_aigei_com.mp4 # https://cdn.moji.com/websrc/video/autumn20190924.mp4
+    banner_title: 停步小憩，<br>且闻花香。
+    banner_text: Weelcome to my blog!
+
+  archive:
+    type: video
+    bgurl: https://r2.haier-mail.com/imghost%2F2024%2F06%2F%E6%B7%B1%E6%9E%97.mp4
+    banner_title: 树深时见鹿，<br>溪午不闻钟。
+    banner_text: THE ARTICLE ARCHIVE
+
+  about:
+    type: video
+    bgurl: https://r2.haier-mail.com/imghost%2F2024%2F06%2F%E6%9E%AB%E5%8F%B6.mp4
+    banner_title: 晚云收，夕阳挂，<br>一川枫叶，两岸芦花。
+    banner_text: ABOUT ME
+
+toc:
+  enable: true
+  list_number: false
+  post_title: true
+  max_depth: 5
+  min_depth: 1
+
+about:
+	insert: none # before | after | none
+  title: Colin：“是的，它们还是我的遗憾 可它们让我拥有了现在的一切。”
+  introduction: 大家好，我是 <strong>AKI秋枫</strong>，很高兴您能在浩瀚如烟的互联网世界里发现这个博客，更感谢您能够饶有兴致地浏览这个页面。建立这个 Blog 是出于兴趣爱好，我将在此分会分享一些学习笔记，可能还会分享少许图片、视频以及其他有趣东西的链接。
+  privacy: 
+    本网站不会追踪访客行为，且不要求访客提供任何敏感信息（比如真实姓名、身份证号码、手机号等），因而也不存在任何隐私泄漏问题。访客参与评论，必须遵守法律法规和基本道德规范，文明礼貌。严禁发布任何有关淫秽、反动、暴力、博彩、恐吓、低俗的内容或违法信息，在尊重言论自由的同时请保持和平与理性。请勿对他人采取不友好的评论或其它过激行为。
+
+#图片封面
+cover:
+  default:
+    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F6725338cf11bcf56.jpg
+    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F24607363_36540.jpeg
+    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F385716031.jpg
+    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F-448111435.jpg
+    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F-22a193b77b0f564f.jpg
+    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F-1863519900.jpg
+    - https://r2.haier-mail.com/imghost%2F2024%2F06%2Fmaple.jpeg
+    - https://r2.haier-mail.com/imghost%2F2024%2F06%2Fsunset.jpeg
+  type: random
+
+post_pagination:
+  enable: true
+  type: small
+
+search:
+  enable: true
+  type: local
+  trigger: auto
+
+comment:
+  giscus:
+    enable: true
+    repo: AKIqiufeng/AKIqiufeng.github.io
+    repo-id: R_kgDOML0nkg
+    category: Announcements
+    category-id: DIC_kwDOML0nks4CgXMK
+    mapping: pathname
+    reactions-enabled: 1
+    emit-metadata: 0
+    lang: zh-CN
+    theme: 
+      light: light
+      dark: dark
+
+baidu_push: true
