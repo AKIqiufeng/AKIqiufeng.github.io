@@ -122,6 +122,11 @@ post_pagination:
   enable: true
   type: small
 
+katex:
+  copy_tex: true
+  global: false
+  options: {}
+
 search:
   enable: true
   type: local
