@@ -7,9 +7,12 @@ tags:
   - 文案
 cover: https://r2.haier-mail.com/mi10s/2024/6/Cover_findingparadise.jpg
 ---
-寻找天堂，这个游戏，在我曾经深陷执念的时候，也给我带来了很大的影响，他教会了我如何看待遗憾，这也让我最后慢慢放下自己的执念。而下面是这个游戏里一些经典的语录。<!--more-->
+寻找天堂，这个游戏，在我曾经深陷执念的时候，也给我带来了很大的影响，他教会了我如何看待遗憾，这也让我最后慢慢放下自己的执念。<!--more-->而下面是这个游戏里一些经典的语录。
+
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1913118259&auto=0&height=66"></iframe>
+
 （附上游戏作者高瞰老师亲自弹的游戏音乐一首）
+
 ***
 >Colin：“是的，它们还是我的遗憾......可它们让我拥有了现在的一切。
 而我所拥有的一切……无论什么都换不走。”
