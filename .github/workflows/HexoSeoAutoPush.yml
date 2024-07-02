@@ -20,6 +20,5 @@ jobs:
           npm install hexo-seo-autopush
           
       - name: baidu push
-        working-directory: ./public
         run: curl -H "Content-Type:text/plain" --data-binary @baidu.txt "http://data.zz.baidu.com/urls?site=https://akiqiufeng.top&token=${{secrets.baidu_token}}"
   
