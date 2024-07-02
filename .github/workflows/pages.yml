@@ -34,7 +34,7 @@ jobs:
         run: npm run build
       - name: baidu push
         working-directory: ./public
-        run: curl -H "Content-Type:text/plain" --data-binary @baidu.txt "http://data.zz.baidu.com/urls?site=https://myprototypewhat.cn&token=${{secrets.BAiDU_TOKEN}}"
+        run: curl -H "Content-Type:text/plain" --data-binary @baidu.txt "http://data.zz.baidu.com/urls?site=https://akiqiufeng.top&token=${{secrets.BAiDU_TOKEN}}"
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@main
         with:
