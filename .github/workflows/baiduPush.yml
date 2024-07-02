@@ -14,8 +14,11 @@ jobs:
   bot:
     runs-on: ubuntu-latest # 运行环境为最新版的Ubuntu
     steps:
-      - name: 'Checkout codes' # 步骤一，获取仓库代码
-        uses: actions/checkout@v1
+      - uses: actions/checkout@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # If your repository depends on submodule, please see: https://github.com/actions/checkout
+          submodules: recursive
       - name: Replace variables in _config.yml
         run: |
           sed -i 's/BAIDU_TOKEN/${{ secrets.BAIDU_TOKEN }}/g' baiduPush.sh
