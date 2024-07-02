@@ -117,3 +117,15 @@ baidu_url_submit:
   host: https://akiqiufeng.top/    # 在百度站长平台中添加的域名
   token: BAIDU_TOKEN             	  # 秘钥
   path: baidu_urls.txt                # 文本文档的地址,新链接会保存在此文本文档里
+
+# enable: 开启/关闭 推送
+# cron: 执行时间周期
+# count: 每次提交最新的10篇文章，输入0或者不填写则默认为所有文章(建议是最新的10篇文章)
+# date: 更新时间(updated)|创建日期(created)
+# https://github.com/Lete114/hexo-seo-autopush.git
+hexo_seo_autopush:
+  cron: 0 4 * * *
+  baidu:
+    enable: true
+    date: created
+    count: 10
