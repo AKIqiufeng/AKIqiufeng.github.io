@@ -23,4 +23,6 @@ jobs:
         run: |
           sed -i 's/BAIDU_TOKEN/${{ secrets.BAIDU_TOKEN }}/g' baiduPush.sh
       - name: 'Run baiduPush' # 步骤二，执行sh命令文件
-        run: npm install && npm run baiduPush # 运行目录是仓库根目录
+        run: |
+          chmod +x baiduPush.sh
+          ./baiduPush.sh # 运行目录是仓库根目录
