@@ -128,7 +128,7 @@ post_pagination:
 
 katex:
   copy_tex: true
-  global: true
+  global: false
   options: {}
 
 search:
