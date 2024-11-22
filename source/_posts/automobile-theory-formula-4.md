@@ -5,7 +5,7 @@ categories: 学习
 tags:
   - 汽车理论
   - 公式
-katex: "true"
+katex: true
 ---
 ## 第四章 汽车的制动性
 
