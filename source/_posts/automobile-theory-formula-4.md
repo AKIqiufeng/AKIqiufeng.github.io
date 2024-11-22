@@ -12,7 +12,7 @@ katex: true
 <!--more-->
 
 >地面制动力：
-<div>
+{% raw %}
 $$
 \begin{align}
 &F_{Xb}=\begin{cases}
@@ -24,10 +24,10 @@ $$
 &\varphi:路面附着系数(由路面轮胎决定)
 \end{align}
 $$
-</div>
+{% endraw %}
 
 >滑移率：
-<div>
+{% raw %}
 $$
 \begin{align}
 \begin{cases}
@@ -36,20 +36,20 @@ s&=\frac{u_{\delta}}{u_{w}}\times 100\%
 \end{cases}\Rightarrow s=\frac{u_{w}-\omega_{w}r_{r0}}{u_{w}}\times 100\% 
 \end{align}
 $$
-</div>
+{% endraw %}
 
 >制动力系数,侧向力系数：
-<div>
+{% raw %}
 $$
 \begin{align}
 制动力系数：\varphi_{b}=\frac{F_{Xb}}{F_{Z}}\\
 侧向力系数：\varphi_{l}=\frac{F_{Y}}{F_{Z}}
 \end{align}
 $$
-</div>
+{% endraw %}
 
 >制动减速度：
-<div>
+{% raw %}
 $$
 \begin{align}
 &总地面制动力：F_{Xb}=(F_{Z1}+F_{Z2})\varphi_{b}=\varphi_{b}G=\frac{G}{g}\frac{du}{dt}\\
@@ -58,10 +58,10 @@ $$
 &装有ABS：a_{bmax}=\varphi_{p}g
 \end{align}
 $$
-</div>
+{% endraw %}
 
 >充分发出的平均减速度：
-<div>
+{% raw %}
 $$
 \begin{align}
 &MFDD=\frac{(u_{b}^{2}-u_{e}^{2})}{25.92(s_{e}-s_{b})} \\
@@ -72,10 +72,9 @@ $$
 &s_{e}:u_{0}到u_{e}行驶的距离
 \end{align}
 $$
-</div>
+{% endraw %}
 
 >制动距离：
-<div>
 {% raw %}
 $$
 \begin{align}
@@ -84,10 +83,9 @@ $$
 \end{align}
 $$
 {% endraw %}
-</div>
 
 >左右车轮制动力不相等度：
-<div>
+{% raw %}
 $$
 \begin{align}
 &\Delta F_{\mu r}=\frac{F_{\mu b}-F_{\mu 1}}{F_{\mu b}} \times 100\%\\
@@ -95,4 +93,4 @@ $$
 &F_{\mu 1}：小的制动器制动力
 \end{align}
 $$
-</div>
+{% endraw %}
