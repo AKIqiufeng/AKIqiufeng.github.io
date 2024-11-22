@@ -1,6 +1,5 @@
 ---
 title: 汽车理论公式整理4
-katex: true
 date: 2024-11-22 16:00:55
 categories: 学习
 tags:
