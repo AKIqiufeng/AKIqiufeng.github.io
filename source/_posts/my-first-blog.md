@@ -5,6 +5,7 @@ categories:
     - 其他
 tags:
   - 其他
+single_column: true
 ---
 
 # 我的第一篇博客

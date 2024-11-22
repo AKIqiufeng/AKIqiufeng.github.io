@@ -6,6 +6,7 @@ tags:
   - 寻找天堂
   - 文案
 cover: https://r2.haier-mail.com/mi10s/2024/6/Cover_findingparadise.jpg
+single_column: true
 ---
 寻找天堂，这个游戏，在我曾经深陷执念的时候，也给我带来了很大的影响，他教会了我如何看待遗憾，这也让我最后慢慢放下自己的执念。<!--more-->而下面是这个游戏里一些经典的语录。
 

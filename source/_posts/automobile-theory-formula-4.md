@@ -6,6 +6,7 @@ tags:
   - 汽车理论
   - 公式
 katex: true
+single_column: true
 ---
 ## 第四章 汽车的制动性
 整理中...
