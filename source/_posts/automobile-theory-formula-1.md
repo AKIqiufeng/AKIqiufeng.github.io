@@ -174,7 +174,7 @@ $$</div>
 \begin{aligned}
 &C_{\varphi 1} > C_{\varphi 2}:前轮要求高，取前轮\\
 &q=\frac{\frac{b}{L}}{\frac{1-\psi}{\varphi}+\frac{h_g}{L}}\\
-&C_{\varphi 1} < C_{\varphi 2}:后轮要求高，后前轮\\
+&C_{\varphi 1} < C_{\varphi 2}:后轮要求高，取后轮\\
 &q=\frac{\frac{a}{L}}{\frac{\psi}{\varphi}-\frac{h_g}{L}}
 \end{aligned}
 $$</div>
