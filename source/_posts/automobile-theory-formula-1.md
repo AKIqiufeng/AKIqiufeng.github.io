@@ -170,14 +170,14 @@ $$</div>
 C_{\varphi 2}=\frac{\psi q}{\frac{a}{L}+\frac{h_g}{L}q}
 $$</div>
 最大等效坡度：
-<div>$$
+<div>{% raw %}$$
 \begin{aligned}
 &C_{\varphi 1}>C_{\varphi 2}:前轮要求高，取前轮\\
 &q=\frac{\frac{b}{L}}{\frac{1-\psi}{\varphi}+\frac{h_g}{L}}\\
 &C_{\varphi 1}<C_{\varphi 2}:后轮要求高，后前轮\\
 &q=\frac{\frac{a}{L}}{\frac{\psi}{\varphi}-\frac{h_g}{L}}
 \end{aligned}
-$$</div>
+$${% endraw %}</div>
 
 ##### 汽车功率平衡方程式：
 <div>$$
