@@ -7,7 +7,7 @@ tags:
   - 公式
 katex: true
 single_column: true
-sticky: 3
+sticky: 5
 ---
 ## 第三章 汽车动力装置参数的选择
 整理中。。。

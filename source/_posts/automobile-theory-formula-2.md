@@ -7,7 +7,7 @@ tags:
   - 公式
 katex: true
 single_column: true
-sticky: 2
+sticky: 6
 ---
 ## 第二章 汽车的燃油经济性
 

@@ -7,7 +7,7 @@ tags:
   - 公式
 katex: true
 single_column: true
-sticky: 1
+sticky: 7
 ---
 ## 第一章 汽车的动力性
 
