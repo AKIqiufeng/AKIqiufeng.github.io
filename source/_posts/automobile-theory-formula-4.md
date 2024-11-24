@@ -1,12 +1,13 @@
 ---
 title: 汽车理论公式整理4
-date: 2024-11-22 16:00:55
+date: 2024-11-23 16:00:55
 categories: 学习
 tags:
   - 汽车理论
   - 公式
 katex: true
 single_column: true
+sticky: 4
 ---
 ## 第四章 汽车的制动性
 

@@ -1,12 +1,13 @@
 ---
 title: 汽车理论公式整理2
-date: 2024-11-23 20:00:55
+date: 2024-11-22 13:00:55
 categories: 学习
 tags:
   - 汽车理论
   - 公式
 katex: true
 single_column: true
+sticky: 2
 ---
 ## 第二章 汽车的燃油经济性
 

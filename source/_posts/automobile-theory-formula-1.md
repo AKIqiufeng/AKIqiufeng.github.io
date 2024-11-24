@@ -1,12 +1,13 @@
 ---
 title: 汽车理论公式整理1
-date: 2024-11-22 16:00:55
+date: 2024-11-21 16:00:55
 categories: 学习
 tags:
   - 汽车理论
   - 公式
 katex: true
 single_column: true
+sticky: 1
 ---
 ## 第一章 汽车的动力性
 
