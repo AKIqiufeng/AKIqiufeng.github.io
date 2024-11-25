@@ -43,11 +43,10 @@ $$</div>
 
 ##### 点火公式
 <div>$$
-\begin{align}
+\begin{aligned}
 \int_{0}^{\frac{\pi }{2} } \sin^{n} x =\int_{0}^{\frac{\pi }{2} } \cos^{n} x=\begin{cases}
 \frac{n-1}{n}\times \frac{n-3}{n-2}\times \dotsb\times \frac{1}{2}\times\frac{\pi}{2},n为正偶数  \\ 
 \frac{n-1}{n}\times \frac{n-3}{n-2}\times \dotsb\times \frac{2}{3}\times 1 ,n为大于1的正奇数 
-
 \end{cases}
-\end{align}
+\end{aligned}
 $$</div>
