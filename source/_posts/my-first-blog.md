@@ -6,6 +6,7 @@ categories:
 tags:
   - 其他
 single_column: true
+katex: true
 ---
 
 # 我的第一篇博客
