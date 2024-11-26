@@ -182,7 +182,7 @@ $$</div>
 
 ##### 汽车功率平衡方程式：
 <div>$$
-P_e=\frac{1}{\eta _T}(\frac{Gfu_a}{3600}+\frac{Giu_a}{3600}+\frac{C_DAu_a^3}{76140}+\frac{\delta mu_a}{3600}\frac{\mathrm{d}u}{\mathrm{d}t})
+P_e=\frac{1}{\eta _T}\left(\frac{Gfu_a}{3600}+\frac{Giu_a}{3600}+\frac{C_DAu_a^3}{76140}+\frac{\delta mu_a}{3600}\frac{\mathrm{d}u}{\mathrm{d}t}\right)
 $$</div>
 <div>$$
 后备功率：P_e-\frac{1}{\eta _T}(P_f+P_W)

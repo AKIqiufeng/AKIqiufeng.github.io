@@ -81,7 +81,7 @@ $$
 {% raw %}
 $$
 \begin{aligned}
-&s=\frac{1}{3.6}({\tau _{2}}'+\frac{{\tau _2}''}{2} ) u_{a0}+\frac{u_{a0}^{2}}{25.92} \\
+&s=\frac{1}{3.6}\left({\tau _{2}}'+\frac{{\tau _2}''}{2} \right) u_{a0}+\frac{u_{a0}^{2}}{25.92} \\
 &u_{a0}:起始制动速度，单位：km/h
 \end{aligned}
 $$
