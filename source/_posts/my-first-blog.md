@@ -28,6 +28,16 @@ python
 print("Hello, World!")
 ```
 
+#### Katex公式测试
+行内公式测试：
+(1) 水平浙近线
+若 $\lim _{x \rightarrow+\infty} f(x) = b$ 或$\lim _{x \rightarrow-\infty} f(x) = b$, 则  $y = b$ 为函数 $y = f(x)$  的水平渐近线.
+行间公式测试：
+(1) 水平浙近线
+<div>$$
+若 \lim _{x \rightarrow+\infty} f(x) = b 或\lim _{x \rightarrow-\infty} f(x) = b, 则  y = b为函数 y = f(x)$的水平渐近线.
+$$</div>
+
 ##### 链接测试
 [我的GitHub个人主页](https://github.com/AKIqiufeng)
 
