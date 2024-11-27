@@ -152,8 +152,24 @@ $$</div>
 $$</div>
 
 #### 常见反常积分的敛散性
-
-
+<div>$$
+\begin{aligned}
+&\int_a^{+\infty}\frac{1}{x^p}\mathrm{d}x\left\{\begin{array}{ll}
+收敛, &p>1, \\
+发散, &p\le1
+\end{array}\right. \ \ (a>0).\\
+\\
+&\int_a^{+\infty}\frac{1}{x\ln^px}\mathrm{d}x\left\{\begin{array}{ll}
+收敛, &p>1, \\
+发散, &p\le1
+\end{array}\right. \ \ (a>1).\\
+\\
+&\int_a^b\frac{1}{(x-a)^p}\mathrm{d}x\left\{\begin{array}{ll}
+收敛, &p<1, \\
+发散, &p\ge1.
+\end{array}\right.
+\end{aligned}
+$$</div>
 
 #### 平面图形面积
 ##### (1)直角坐标系
@@ -186,8 +202,8 @@ $$</div>
 
 #### 二重积分
 ##### (1) 选择坐标系
-直角坐标系下的二重积分表示: $\iint_{D} f(x, y) \mathrm{d} \sigma=\iint_{D} f(x, y) \mathrm{~d} x \mathrm{~d} y$.
-极坐标系下的二重积分表示: $\iint_{D} f(x, y) \mathrm{d} \sigma=\iint_{D} f(r \cos \theta, r \sin \theta) r \mathrm{~d} r \mathrm{~d} \theta$.
+直角坐标系下的二重积分表示: $\iint_{D} f(x, y) \mathrm{d} \sigma=\iint_{D} f(x, y) \mathrm{\ d} x \mathrm{\ d} y$.
+极坐标系下的二重积分表示: $\iint_{D} f(x, y) \mathrm{d} \sigma=\iint_{D} f(r \cos \theta, r \sin \theta) r \mathrm{\ d} r \mathrm{\ d} \theta$.
 
 ##### (2) 二重积分的化简
 (1) 如果积分区域 $D$ 关于 $x$ 轴对称，则二重积分
