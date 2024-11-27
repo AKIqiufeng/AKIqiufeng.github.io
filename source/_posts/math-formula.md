@@ -158,8 +158,8 @@ $$</div>
 #### 平面图形面积
 ##### (1)直角坐标系
 ![直角坐标系](https://r2.haier-mail.com/imghost/2024/11/202411271316729.png)
-如图1所示的面积为 <div>$S_1=\int_a^b|f(x)-g(x)|\mathrm{~d}x$</div>.
-如图2所示的面积为 <div>$S_2=\int_{\alpha}^{\beta}|\varphi(x)-\psi(x)|\mathrm{~d}y$</div>.
+如图1所示的面积为 $S_1=\int_a^b|f(x)-g(x)|\mathrm{~d}x$.
+如图2所示的面积为 $S_2=\int_{\alpha}^{\beta}|\varphi(x)-\psi(x)|\mathrm{~d}y$.
 
 ##### (2)极坐标系
 ![image.png](https://r2.haier-mail.com/imghost/2024/11/202411271318610.png)
@@ -169,8 +169,8 @@ $$</div>
 
 #### 旋转体体积
 平面图形由曲线 $y=y(x)$ 与直线 $x=a$ ，$x=b$ 和 $x$ 轴围成，则
-	绕 $x$ 轴旋转一周所形成的旋转体的体积  <div>$V_x=\pi \int_a^by^2(x)\mathrm{~d}x$</div>.
-	绕 $y$ 轴旋转一周所形成的旋转体的体积  <div>$V_y=2\pi \int_a^bx|y(x)|\mathrm{~d}x$</div>.
+&emsp;&emsp;绕 $x$ 轴旋转一周所形成的旋转体的体积 $V_x=\pi \int_a^by^2(x)\mathrm{~d}x$.
+&emsp;&emsp;绕 $y$ 轴旋转一周所形成的旋转体的体积 $V_y=2\pi \int_a^bx|y(x)|\mathrm{~d}x$.
 
 #### 二元函数取极值的充分条件
 设 $z=f(x, y)$ 在点 $\left(x_{0}, y_{0}\right)$ 的某邻域内有连续的二阶偏导数, 且
