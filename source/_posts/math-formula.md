@@ -157,12 +157,12 @@ $$</div>
 &\int_a^{+\infty}\frac{1}{x^p}\mathrm{d}x\left\{\begin{array}{ll}
 收敛, &p>1, \\
 发散, &p\le1
-\end{array}\right. \ \ (a>0).\\
+\end{array}\right. \ (a>0).\\
 \\
 &\int_a^{+\infty}\frac{1}{x\ln^px}\mathrm{d}x\left\{\begin{array}{ll}
 收敛, &p>1, \\
 发散, &p\le1
-\end{array}\right. \ \ (a>1).\\
+\end{array}\right. \ (a>1).\\
 \\
 &\int_a^b\frac{1}{(x-a)^p}\mathrm{d}x\left\{\begin{array}{ll}
 收敛, &p<1, \\
