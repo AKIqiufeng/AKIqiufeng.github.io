@@ -264,8 +264,8 @@ $$</div>
 
 通解的求解步骤：
 (1) 求对应的齐次方程的通解 $Y(x)$;
-(2) 用待定系数法求出非齐次方程的特解 $y^{*}(x)$;
-(3) 写出非齐次方程的通解为 $y^{*}(x)+Y(x)$.
+(2) 用待定系数法求出非齐次方程的特解 $y^{\*}(x)$;
+(3) 写出非齐次方程的通解为 $y^{\*}(x)+Y(x)$.
 
 #### 二阶常系数非齐次线性方程的非齐次项 $f(x)$ 与特解 $y^{*}$ 的关系
 
@@ -286,7 +286,7 @@ $$</div>
 相应的特征方程为 $\lambda^{n}+p_{1} \lambda^{n-1}+p_{2} \lambda^{n-2}+\cdots+p_{n-1} \lambda+p_{n}=0$,
 (1) 若特征方程有 $n$ 个不同的实根 $\lambda_{1}, \lambda_{2}, \cdots, \lambda_{n}$
 则方程通解 $y=C_{1} \mathrm{e}^{\lambda_{1} x}+C_{2} \mathrm{e}^{\lambda_{2} x}+\cdots+C_{n} \mathrm{e}^{\lambda_{11} x}$.
-(2) 若 $\lambda _0$ 为特征方程的 $k$ 重实根 $(k\le n)$ 
+(2) 若 $\lambda _0$ 为特征方程的 $k$ 重实根 $(k \le n)$ 
 则方程通解中含有 $(C_1 +C_2 x+\cdots +C_{k}x^{k-1})e^{\lambda_0 x}$.
 (3) 若 $\alpha \pm i\beta$ 为特征方程的 $k$ 重共轭复根 $(2k\le n)$ 
 则方程通解中含有$e^{\alpha x}\left[\left(C_1 +C_2 x+\cdots +C_{k}x^{k-1}\right)\cos \beta x+\left(D_1 +D_2 x+\cdots +D_{k}x^{k-1}\right)\sin \beta x\right]$.
