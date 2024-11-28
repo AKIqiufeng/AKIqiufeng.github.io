@@ -225,3 +225,66 @@ $$</div>
 
 其中, $D_{1}$ 为 $D$ 在 $x \ge 0$ 的部分.
 (3) 如果 $D$ 关于直线 $y=x$ 对称, 则
+<div>$$
+\iint_{D} f(x, y) \mathrm{d} \sigma=\iint_{D} f(y, x) \mathrm{d} \sigma=\frac{1}{2} \iint_{D}(f(x, y)+f(y, x)) \mathrm{d} \sigma .
+$$</div>
+
+#### 可分离变量方程
+<div>$$
+f_{1}(x) g_{1}(y) \mathrm{d} x+f_{2}(x) g_{2}(y) \mathrm{d} y=0,
+$$</div>
+分离变量两边同除 $g_{1}(y) f_{2}(x) \neq 0$, 得 $\frac{f_{1}(x)}{f_{2}(x)} \mathrm{d} x+\frac{g_{2}(y)}{g_{1}(y)} \mathrm{d} y=0$, 然后两边积分即可.
+
+#### 齐次方程
+<div>$$
+y'=f\left(\frac{y}{x}\right),
+$$</div>
+令 $u=\frac{y}{x}$, 则 $y=u x, y'=u+x \frac{\mathrm{d} u}{\mathrm{d} x}$, 于是原方程可化为
+<div>$$
+u+x \frac{\mathrm{d} u}{\mathrm{d} x}=f(u) \Rightarrow \frac{\mathrm{d} u}{f(u)-u}=\frac{\mathrm{d} x}{x} \Rightarrow \int \frac{\mathrm{d} u}{f(u)-u}=\ln |x|+C .
+$$</div>
+求出积分后，再以 $\frac{y}{x}$ 代替 $u$ ，便得所给齐次方程的通解。
+
+#### 一阶线性方程
+<div>$$
+y'+p(x) y=q(x)
+$$</div>
+求解公式: $y=\left[\int q(x) \mathrm{e}^{\int p(x) \mathrm{dx}} \mathrm{d} x+C\right] \mathrm{e}^{-\int p(x) \mathrm{dx}}$.
+
+#### 二阶常系数线性齐次微分方程
+$y^{\prime \prime}+p y^{\prime}+q y=0$, 其中 $p, q$ 均为常数特征方程: $\lambda^{2}+p \lambda+q=0$,
+(1) 当 $\lambda_{1}, \lambda_{2}$ 为互异实根时, 微分方程通解为 $y(x)=C_{1} \mathrm{e}^{\lambda_{1} x}+C_{2} \mathrm{e}^{\lambda_{2} x}$;
+(2) 当 $\lambda_{1}=\lambda_{2}$ 时，通解为 $y(x)=\left(C_{1}+C_{2} x\right) \mathrm{e}^{\lambda_{1} x}$ ；
+(3) 当 $\lambda=\alpha \pm i \beta$ (复根) 时, 通解为 $y(x)=\mathrm{e}^{\alpha x}\left(C_{1} \cos \beta x+C_{2} \sin \beta x\right)$.
+
+#### 二阶常系数线性非齐次方程
+<div>$$
+y''+p y'+q y=f(x), 其中  p, q  均为常数
+$$</div>
+通解的求解步骤：
+(1) 求对应的齐次方程的通解 $Y(x)$ ；
+(2) 用待定系数法求出非齐次方程的特解 $y^{*}(x)$ ；
+(3) 写出非齐次方程的通解为 $y^{*}(x)+Y(x)$.
+
+#### 二阶常系数非齐次线性方程的非齐次项 $f(x)$ 与特解 $y^{*}$ 的关系
+
+|                                                             $y''+p y'+q y=f(x)$                                                             |                                                                                              $特解  y^{*}(x)  的形式$                                                                                               |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                   <br>$f(x)=P_{n}(x) \mathrm{e}^{(x)}$<br>其中 $P_{n}(x)$ 为 $x$ 的 $n$ 次多项式                                    |      $a$ 不是特征根，$y^{*}(x)=R_{n}(x) \mathrm{e}^{a x}$, <br>$a$ 是特征方程的单根，$y^{*}(x)=x R_{n}(x) \mathrm{e}^{a x}$ <br>$a$ 是特征方程的重根，$y^{*}(x)=x^{2} R_{n}(x) \mathrm{e}^{a x}$<br>( $R_{n}(x)$ 为 $n$ 次多项式的一般形式)      |
+| $f(x)=P_{n}(x) \mathrm{e}^{\alpha x} \sin \beta x$<br>或 $f(x)=P_{n}(x) \mathrm{e}^{\alpha x} \cos \beta x$<br>其中 $P_{n}(x)$ 为 $n$ 次多项式的一般形式 | $y^{*}(x)=x^{k} \mathrm{e}^{\alpha x}\left[Q_{n}(x) \cos \beta x+W_{n}(x) \sin \beta x\right]$<br>$\alpha \pm i \beta$ 不是特征根，$k=0$<br>$\alpha \pm i \beta$ 是特征根，$k=1$<br>$Q_{n}(x), W_{n}(x)$ 为 $n$ 次多项式的一般形式) |
+
+#### 高于二阶的常系数线性齐次微分方程
+$n$ 阶常系数线性齐次微分方程的一般形式是：
+<div>$$
+\begin{aligned}
+&y^{(n)}+p_{1} y^{(n-1)}+p_{2} y^{(n-2)}+\cdots+p_{n-1} y^{\prime}+p_{n} y=0 , \\
+&其中  p_{i}(i=1,2, \cdots, n)  为常数.
+\end{aligned}
+$$</div>
+相应的特征方程为 $\lambda^{n}+p_{1} \lambda^{n-1}+p_{2} \lambda^{n-2}+\cdots+p_{n-1} \lambda+p_{n}=0$,
+(1) 若特征方程有 $n$ 个不同的实根 $\lambda_{1}, \lambda_{2}, \cdots, \lambda_{n}$
+则方程通解 $y=C_{1} \mathrm{e}^{\lambda_{1} x}+C_{2} \mathrm{e}^{\lambda_{2} x}+\cdots+C_{n} \mathrm{e}^{\lambda_{11} x}$.
+(2) 若 $\lambda _0$ 为特征方程的 $k$ 重实根 $(k\le n)$ 
+则方程通解中含有 $(C_1 +C_2 x+\cdots +C_{k}x^{k-1})e^{\lambda_0 x}$.
+(3) 若 $\alpha \pm i\beta$ 为特征方程的 $k$ 重共轭复根 $(2k\le n)$ 
+则方程通解中含有$e^{\alpha x}\left[\left(C_1 +C_2 x+\cdots +C_{k}x^{k-1}\right)\cos \beta x+\left(D_1 +D_2 x+\cdots +D_{k}x^{k-1}\right)\sin \beta x\right]$.
