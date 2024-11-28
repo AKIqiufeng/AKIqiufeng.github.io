@@ -196,6 +196,7 @@ $$</div>
 &A=f_{x x}''\left(x_{0}, y_{0}\right), B=f_{x y}''\left(x_{0}, y_{0}\right), C=f_{y y}''\left(x_{0}, y_{0}\right) .
 \end{aligned}
 $$</div>
+
 (1) 若 $A C-B^{2}>0$ , 则 $\left(x_{0}, y_{0}\right)$ 是 $z=f(x, y)$ 的一个极值点, 且当 $A>0$ 时, $\left(x_{0}, y_{0}\right)$ 为极小值点; 当 $A<0$ 时, $\left(x_{0}, y_{0}\right)$ 为极大值点.
 (2) 若 $A C-B^{2}<0$, 则 $\left(x_{0}, y_{0}\right)$ 不是 $z=f(x, y)$ 的极值点.
 (3) 若 $A C-B^{2}=0$, 则无法判定 $\left(x_{0}, y_{0}\right)$ 是否为极值点, 此时应考虑利用极值点的定义进行判断。
