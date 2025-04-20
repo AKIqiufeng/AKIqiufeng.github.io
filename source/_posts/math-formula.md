@@ -173,12 +173,12 @@ $$</div>
 
 #### 平面图形面积
 ##### (1)直角坐标系
-![直角坐标系](https://r2.haier-mail.com/imghost/2024/11/202411271316729.png)
+![直角坐标系](https://r2.aki1205.top/imghost/2024/11/202411271316729.png)
 如图1所示的面积为 $S_1=\int_a^b|f(x)-g(x)|\mathrm{\ d}x$.
 如图2所示的面积为 $S_2=\int_{\alpha}^{\beta}|\varphi(x)-\psi(x)|\mathrm{\ d}y$.
 
 ##### (2)极坐标系
-![image.png](https://r2.haier-mail.com/imghost/2024/11/202411271318610.png)
+![image.png](https://r2.aki1205.top/imghost/2024/11/202411271318610.png)
 <div>$$
 S=\frac{1}{2}\int_{\alpha}^{\beta}\left[r_2^2(\theta)-r_1^2(\theta)\right]\mathrm{~d}\theta.
 $$</div>
