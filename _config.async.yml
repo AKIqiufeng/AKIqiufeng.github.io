@@ -70,24 +70,24 @@ banner:
   use_cover: true
   default:
     type: img
-    bgurl: https://r2.haier-mail.com/imghost%2F2024%2F06%2Fforget-me-not.jpg
+    bgurl: https://r2.aki1205.top/imghost%2F2024%2F06%2Fforget-me-not.jpg
     # banner_text:
 
   index:
     type: video
-    bgurl: https://r2.haier-mail.com/imghost%2F2024%2F06%2F%E7%99%BD%E8%89%B2%E7%9A%84%E8%8A%B1%E6%9C%B5_%E7%88%B1%E7%BB%99%E7%BD%91_aigei_com.mp4 # https://cdn.moji.com/websrc/video/autumn20190924.mp4
+    bgurl: https://r2.aki1205.top/imghost%2F2024%2F06%2F%E7%99%BD%E8%89%B2%E7%9A%84%E8%8A%B1%E6%9C%B5_%E7%88%B1%E7%BB%99%E7%BD%91_aigei_com.mp4 # https://cdn.moji.com/websrc/video/autumn20190924.mp4
     banner_title: 停步小憩，<br>且闻花香。
     banner_text: Weelcome to my blog!
 
   archive:
     type: video
-    bgurl: https://r2.haier-mail.com/imghost%2F2024%2F06%2F%E6%B7%B1%E6%9E%97.mp4
+    bgurl: https://r2.aki1205.top/imghost%2F2024%2F06%2F%E6%B7%B1%E6%9E%97.mp4
     banner_title: 树深时见鹿，<br>溪午不闻钟。
     banner_text: THE ARTICLE ARCHIVE
 
   about:
     type: video
-    bgurl: https://r2.haier-mail.com/imghost%2F2024%2F06%2F%E6%9E%AB%E5%8F%B6.mp4
+    bgurl: https://r2.aki1205.top/imghost%2F2024%2F06%2F%E6%9E%AB%E5%8F%B6.mp4
     banner_title: 晚云收，夕阳挂，<br>一川枫叶，两岸芦花。
     banner_text: ABOUT ME
 
@@ -108,20 +108,20 @@ about:
 #图片封面
 cover:
   default:
-    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F6725338cf11bcf56.jpg
-    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F24607363_36540.jpeg
-    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F385716031.jpg
-    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F-448111435.jpg
-    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F-22a193b77b0f564f.jpg
-    - https://r2.haier-mail.com/imghost%2F2024%2F06%2F-1863519900.jpg
-    - https://r2.haier-mail.com/imghost%2F2024%2F06%2Fmaple.jpeg
-    - https://r2.haier-mail.com/imghost%2F2024%2F06%2Fsunset.jpeg
-    - https://r2.haier-mail.com/mi10s/2024/6/neko2.jpg
-    - https://r2.haier-mail.com/mi10s/2024/6/neko1.jpg
-    - https://r2.haier-mail.com/mi10s/2024/6/-1682409904.jpg
-    - https://r2.haier-mail.com/mi10s/2024/6/54643709.jpg
-    - https://r2.haier-mail.com/imghost/2024/11/pexels-joanie-xie-1306424600-29480511.jpg
-    - https://r2.haier-mail.com/imghost/2024/11/pexels-acam-26892278.jpg
+    - https://r2.aki1205.top/imghost%2F2024%2F06%2F6725338cf11bcf56.jpg
+    - https://r2.aki1205.top/imghost%2F2024%2F06%2F24607363_36540.jpeg
+    - https://r2.aki1205.top/imghost%2F2024%2F06%2F385716031.jpg
+    - https://r2.aki1205.top/imghost%2F2024%2F06%2F-448111435.jpg
+    - https://r2.aki1205.top/imghost%2F2024%2F06%2F-22a193b77b0f564f.jpg
+    - https://r2.aki1205.top/imghost%2F2024%2F06%2F-1863519900.jpg
+    - https://r2.aki1205.top/imghost%2F2024%2F06%2Fmaple.jpeg
+    - https://r2.aki1205.top/imghost%2F2024%2F06%2Fsunset.jpeg
+    - https://r2.aki1205.top/mi10s/2024/6/neko2.jpg
+    - https://r2.aki1205.top/mi10s/2024/6/neko1.jpg
+    - https://r2.aki1205.top/mi10s/2024/6/-1682409904.jpg
+    - https://r2.aki1205.top/mi10s/2024/6/54643709.jpg
+    - https://r2.aki1205.top/imghost/2024/11/pexels-joanie-xie-1306424600-29480511.jpg
+    - https://r2.aki1205.top/imghost/2024/11/pexels-acam-26892278.jpg
   type: random
 
 post_pagination:
