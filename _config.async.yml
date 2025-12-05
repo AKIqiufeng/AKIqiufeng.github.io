@@ -50,7 +50,7 @@ sidebar:
     - key: 地址
       val: 地球
     - key: 年龄
-      val: 21
+      val: 23
 
 rightside:
   readmode: true
