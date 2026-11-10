@@ -25,20 +25,21 @@ $$
 <div>
 
 ##### 发动机的功率(kW)：
-<div>$$
+<div>
+$$
 \begin{aligned}
 &P_e=\frac{T_{tq}n}{9550}\\
 &T_{tq}:发动机转矩 n\cdot m \\
 &n:发动机转速 r/min
 \end{aligned}
-$$</div>
+$$
+</div>
 
 ##### 传动系机械效率
 <div>$$
 \eta _T=\frac{P_{in}-P_T}{P_{in}}
 $$</div>
-<div>
-输入传动系统的功率$P_{in}$  ,损失的功率$P_T$  
+输入传动系统的功率$P_{in}$  ,损失的功率$P_T$ 
 等速时：$P_{in}=P_e$
 <div>$$
 \eta _T=\frac{P_e-P_T}{P_e}=\boxed{1-\frac{P_T}{P_e}}=\eta _离\cdot \eta _变\cdot \eta _传\cdot \eta_{主减}
