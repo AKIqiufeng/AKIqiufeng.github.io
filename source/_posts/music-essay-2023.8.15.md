@@ -1,7 +1,8 @@
 ---
 title: 由音乐产生的一些想法
 date: 2023-08-15 15:39:28
-categories: 杂谈
+categories:
+  - 鲜花
 tags:
   - 音乐
 cover: https://r2.aki1205.top/mi10s/2024/6/flower_1.jpg
